@@ -48,7 +48,7 @@ export default function Skills() {
         ))}
       </ul>
       <br />
-      <SectionHeading>Libraries I use </SectionHeading>
+      <SectionHeading>Libraries</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Libs.map((libs, index) => (
           <motion.li
@@ -67,7 +67,7 @@ export default function Skills() {
         ))}
       </ul>
       <br />
-      <SectionHeading>Protocoles I use </SectionHeading>
+      <SectionHeading>Protocoles</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Protocoles.map((protocoles, index) => (
           <motion.li

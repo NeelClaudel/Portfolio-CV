@@ -19,26 +19,41 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        After some years working in many differents places by occupying{" "}
+        <span className="font-medium">various positions</span>, I decided to
+        pursue my passion for programming. I enrolled in a coding jorney two
+        years ago and learned <br />{" "}
+        <span className="font-medium underline">
+          full-stack web development and blockchain oriented development of
+          decentralized applications
+        </span>{" "}
+        <br />. <span className="italic">My favorite part of programming</span>{" "}
+        is the creative aspect of designing projects and think on how to create
+        valuable protocols and applications for{" "}
+        <span className="underline">real world usage</span>. I{" "}
+        <span className="underline">love</span> the feeling of progression and
+        satisfaction when a project grows and becomes a reality.
+      </p>
+      <p className="mb-3">
+        My core stack is composed of <br />{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Node.js, MongoDB and Thirdweb
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am also familiar with TypeScript, rust and Solidity which is the
+        programming language to develop smart contracts on blockchain networks
+        (EVM). Smart contracts revolutionize business logic and models by
+        automating and enforcing predefined agreements on the blockchain,
+        ensuring transparency, immutability, and reduced intermediation costs,
+        thus fostering trust and efficiency in transactions .<br />I am always
+        looking to learn new technologies especialy in the blockchain ecosystem.
+        I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a web and
+        blockchain developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy surfing and
+        sports, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
