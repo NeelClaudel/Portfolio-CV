@@ -48,6 +48,7 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
+      <br />
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Libs.map((libs, index) => (

@@ -1,4 +1,4 @@
-## What's gearing this portfolio
+## What's under the gear of this portfolio
 
 - Latest Next.js 13 features
 - Next.js App Router
