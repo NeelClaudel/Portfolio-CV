@@ -2,8 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { skillsData } from "@/lib/data";
-import { Libs } from "@/lib/data";
+import { skillsData, Libs, Protocoles } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -49,7 +48,7 @@ export default function Skills() {
         ))}
       </ul>
       <br />
-      <SectionHeading>My skills</SectionHeading>
+      <SectionHeading>Libraries I use </SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Libs.map((libs, index) => (
           <motion.li
@@ -64,6 +63,25 @@ export default function Skills() {
             custom={index}
           >
             {libs}
+          </motion.li>
+        ))}
+      </ul>
+      <br />
+      <SectionHeading>Protocoles I use </SectionHeading>
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+        {Protocoles.map((protocoles, index) => (
+          <motion.li
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            {protocoles}
           </motion.li>
         ))}
       </ul>
