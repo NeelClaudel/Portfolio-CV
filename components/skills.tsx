@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { skillsData, Libs, Protocoles } from "@/lib/data";
+import { skillsData, JsLibs, Protocoles } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -29,7 +29,7 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>My skills</SectionHeading>
+      <SectionHeading>Technologies and Skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
@@ -48,9 +48,9 @@ export default function Skills() {
         ))}
       </ul>
       <br />
-      <SectionHeading>Libraries</SectionHeading>
+      <SectionHeading>Libraries / SDK</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {Libs.map((libs, index) => (
+        {JsLibs.map((jsLibs, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -62,12 +62,12 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {libs}
+            {jsLibs}
           </motion.li>
         ))}
       </ul>
       <br />
-      <SectionHeading>Protocoles</SectionHeading>
+      <SectionHeading>Protocols i use often</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Protocoles.map((protocoles, index) => (
           <motion.li

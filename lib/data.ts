@@ -36,36 +36,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Starting to code",
+    location: "At Home, FR",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I started by learning basic web programming with HTML, CSS and JS in 2021 for few mounths. I decided to learn more about blockchain and smart contracts so i started learn Solidity, the programming language of Ethereum.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Aspirant Smart Contract Developer",
+    location: "At Home, FR",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "From my knowledge in Solidity, i started to develop smart contracts and deploy tokens on ethereum for my own projects. I also started to learn more about the blockchain ecosystem and the different existing protocols.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Title : Web And Mobile Web Developer of Application",
+    location: "Wild Code School, FR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I've been follow a one year training in web development at Wild Code School. I learned more advanced web development concepts and the different existing technologies like React, Node, Git, Docker, GraphQL. I also learned how to work in a team and how to manage a project.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Game Developer",
+    location: "At Home, FR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I have been working on a 3D video game project for 4 mounths. It's a roleplay game in medieval environment with dynamic combats and world exploration. I'm using Unity and C# to develop the game. Alpha release is planned the game in september 2024.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Summer 2023",
+  },
+  {
+    title: "Stablecoin Protocole",
+    location: "At Home, FR",
+    description:
+      "Curently working on a stablecoin protocole. The goal is to create a over colateralized stablecoin protocol and scale over time by adding more Fiat backed stablecoin trading pair like JPY, AUD, EUR using Chainlink Oracle to ensure data verification. The protocole will be deployed on the Ethereum blockchain.",
+    icon: React.createElement(FaReact),
+    date: "Present",
   },
 ] as const;
 
@@ -110,8 +118,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "Sanity",
+  "Stripe",
   "MongoDB",
   "Redux",
   "GraphQL",
@@ -122,18 +130,19 @@ export const skillsData = [
   "Framer Motion",
 ] as const;
 
-export const Libs = [
-  "Hardhat",
+export const JsLibs = [
+  "Thirdweb",
+  "Moralis",
   "Forge",
   "Ethers.js",
   "Web3.js",
   "Thirdweb",
   "Alchemy",
   "Truffle",
-  "Ganache",
 ] as const;
 
 export const Protocoles = [
+  "Ganache",
   "ChainLink",
   "Aave",
   "Uniswap",
@@ -141,4 +150,13 @@ export const Protocoles = [
   "Moralis",
   "Thirdweb",
   "Metamask",
+  "WalletConnect",
+  "infura",
+  "OpenZeppelin",
+  "Ethereum",
+  "Polygon",
+  "Binance Smart Chain",
+  "Solana",
+  "Avalanche",
+  "OpenSea",
 ] as const;
