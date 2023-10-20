@@ -21,8 +21,8 @@ export default function About() {
       <p className="mb-3">
         After some years working in many differents places by occupying{" "}
         <span className="font-medium">various positions</span>, I decided to
-        pursue my passion for programming. I enrolled in a coding jorney two
-        years ago and learned <br />{" "}
+        pursue my passion for programming. I enrolled in a coding journey two
+        years ago and started learn <br />{" "}
         <span className="font-medium underline">
           full-stack web and blockchain oriented development.
         </span>{" "}
@@ -45,7 +45,7 @@ export default function About() {
           React, Next.js, Node.js, MongoDB and Thirdweb, Alchemy, Web3.js,
           Ethers.js
         </span>
-        . I am also familiar with TypeScript, rust and Solidity which is the
+        . I am also familiar with TypeScript and Solidity which is the
         programming language to develop smart contracts on blockchain networks
         (EVM). Smart contracts revolutionize business logic and models by
         automating and enforcing predefined agreements on the blockchain,

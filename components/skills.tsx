@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { skillsData, JsLibs, Protocoles } from "@/lib/data";
+import { Languages, Technologies, Framworks, Protocols } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -29,9 +29,9 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>Technologies and Skills</SectionHeading>
+      <SectionHeading>Languages</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((skill, index) => (
+        {Languages.map((languages, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -43,14 +43,14 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {skill}
+            {languages}
           </motion.li>
         ))}
       </ul>
       <br />
-      <SectionHeading>Libraries / SDK</SectionHeading>
+      <SectionHeading>Technologies</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {JsLibs.map((jsLibs, index) => (
+        {Technologies.map((techs, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -62,14 +62,14 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {jsLibs}
+            {techs}
           </motion.li>
         ))}
       </ul>
       <br />
-      <SectionHeading>Protocols i use often</SectionHeading>
+      <SectionHeading>Framworks and Libraries</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {Protocoles.map((protocoles, index) => (
+        {Framworks.map((framworks, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -81,7 +81,26 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {protocoles}
+            {framworks}
+          </motion.li>
+        ))}
+      </ul>
+      <br />
+      <SectionHeading>Blockchain Side Protocols and Tools</SectionHeading>
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+        {Protocols.map((protocols, index) => (
+          <motion.li
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            {protocols}
           </motion.li>
         ))}
       </ul>

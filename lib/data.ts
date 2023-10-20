@@ -65,10 +65,18 @@ export const experiencesData = [
     description:
       "I have been working on a 3D video game project for 4 mounths. It's a roleplay game in medieval environment with dynamic combats and world exploration. I'm using Unity and C# to develop the game. Alpha release is planned the game in september 2024.",
     icon: React.createElement(FaReact),
-    date: "Summer 2023",
+    date: "Summer 2023 to Present",
   },
   {
-    title: "Stablecoin Protocole",
+    title: "Koli.world",
+    location: "At Home, FR",
+    description:
+      "Koli.world is a intuitive AI writer application based on LLM models from OpenAi API. This project is designed to be Saas",
+    icon: React.createElement(FaReact),
+    date: "Present",
+  },
+  {
+    title: "Stablecoin Protocol",
     location: "At Home, FR",
     description:
       "Curently working on a stablecoin protocole. The goal is to create a over colateralized stablecoin protocol and scale over time by adding more Fiat backed stablecoin trading pair like JPY, AUD, EUR using Chainlink Oracle to ensure data verification. The protocole will be deployed on the Ethereum blockchain.",
@@ -79,10 +87,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "StableNest Smart Contract",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A stablecoin protocol designed to be exogeneously, over colateralized and scalable platform for stablecoins. Offering multiples crypto Fiat-pegged pair trading like USD, JPY, AUD, EUR and more. Users will benefit from stake, loan and borrow. The protocol will be deployed on the Ethereum blockchain.",
+    tags: ["Solidity", "Rust", "Chainlink", "Forge.rs", "OpenZeppelin"],
     imageUrl: corpcommentImg,
   },
   {
@@ -100,21 +108,23 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
   },
   {
-    title: "Artificial Intel Analytics",
+    title: "Koli.world",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A AI based app writer. It generates text based on a given topic. It uses OpenAI's GPT API. Software as a service project.",
+    tags: ["OpenAi", "LLM", "DB", "Dashboard", "Saas"],
     imageUrl: nlogo,
   },
 ] as const;
 
-export const skillsData = [
+export const Languages = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
+  "JavaScript/TypeScript",
+  "Solidity",
+  "Rust",
+] as const;
+
+export const Technologies = [
   "Node.js",
   "Git",
   "Tailwind",
@@ -128,12 +138,15 @@ export const skillsData = [
   "Docker",
   "Docker Compose",
   "Framer Motion",
+  "LLM",
+  "OpenAi",
 ] as const;
 
-export const JsLibs = [
+export const Framworks = [
+  "React",
+  "Next.js",
   "Thirdweb",
   "Moralis",
-  "Forge",
   "Ethers.js",
   "Web3.js",
   "Thirdweb",
@@ -141,15 +154,19 @@ export const JsLibs = [
   "Truffle",
 ] as const;
 
-export const Protocoles = [
-  "IPFS",
-  "ENS",
+export const Protocols = [
+  "Hardhat",
+  "Forge",
   "Ganache",
   "ChainLink",
+  "IPFS",
+  "ENS",
+  "The Graph",
   "Aave",
   "Uniswap",
   "Alchemy",
   "Moralis",
+  "QuikNode",
   "Thirdweb",
   "Metamask",
   "WalletConnect",
