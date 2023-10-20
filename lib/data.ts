@@ -87,7 +87,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "StableNest Smart Contract",
+    title: "Nest Stable Coin - Smart Contract",
     description:
       "An algorythmic, exogeneously, over colateralized and scalable platform for stablecoins. Offering ERC20 version of Forex pair trading like USD, JPY, AUD, EUR on Ethereum",
     tags: ["Solidity", "Rust", "Chainlink", "Forge", "OpenZeppelin"],
@@ -95,17 +95,17 @@ export const projectsData = [
     links: ["https://github.com"],
   },
   {
-    title: "rmtDev",
+    title: "Nest Stable Coin - Front End",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Front-end UI for the Nest Stable Coin platform. Will allows users to mint, burn, stake, swap and trade Nest based stablecoins.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Ethers.js"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "sc.interactive.io",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A public web app for quick with every smart contract on multiples EVM based blockchains. ",
+    tags: ["React", "Next.js", "Wagmi", "Tailwind", "rainbow.me"],
     imageUrl: wordanalyticsImg,
   },
   {
@@ -123,6 +123,7 @@ export const Languages = [
   "JavaScript/TypeScript",
   "Solidity",
   "Rust",
+  "Golang",
 ] as const;
 
 export const Technologies = [
@@ -153,6 +154,8 @@ export const Framworks = [
   "Thirdweb",
   "Alchemy",
   "Truffle",
+  "Substrate",
+  "Cosmos/Ignite",
 ] as const;
 
 export const Protocols = [
@@ -175,6 +178,7 @@ export const Protocols = [
   "OpenZeppelin",
   "Ethereum",
   "Polygon",
+  "Polkadot",
   "Binance Smart Chain",
   "Solana",
   "Avalanche",
