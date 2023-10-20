@@ -76,10 +76,10 @@ export const experiencesData = [
     date: "Present",
   },
   {
-    title: "Stablecoin Protocol",
+    title: "StableNest Protocol",
     location: "At Home, FR",
     description:
-      "Curently working on a stablecoin protocole. The goal is to create a over colateralized stablecoin protocol and scale over time by adding more Fiat backed stablecoin trading pair like JPY, AUD, EUR using Chainlink Oracle to ensure data verification. The protocole will be deployed on the Ethereum blockchain.",
+      "Curently working on my project of stablecoin protocole. The goal is to create a over colateralized stablecoin protocol and scale over time by adding more Fiat backed stablecoin trading pair like JPY, AUD, EUR using Chainlink Oracle to ensure data verification. The protocole will be deployed on the Ethereum blockchain.",
     icon: React.createElement(FaReact),
     date: "Present",
   },
@@ -89,9 +89,10 @@ export const projectsData = [
   {
     title: "StableNest Smart Contract",
     description:
-      "A stablecoin protocol designed to be exogeneously, over colateralized and scalable platform for stablecoins. Offering multiples crypto Fiat-pegged pair trading like USD, JPY, AUD, EUR and more. Users will benefit from stake, loan and borrow. The protocol will be deployed on the Ethereum blockchain.",
-    tags: ["Solidity", "Rust", "Chainlink", "Forge.rs", "OpenZeppelin"],
+      "An algorythmic, exogeneously, over colateralized and scalable platform for stablecoins. Offering ERC20 version of Forex pair trading like USD, JPY, AUD, EUR on Ethereum",
+    tags: ["Solidity", "Rust", "Chainlink", "Forge", "OpenZeppelin"],
     imageUrl: corpcommentImg,
+    links: ["https://github.com"],
   },
   {
     title: "rmtDev",
