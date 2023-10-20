@@ -142,6 +142,8 @@ export const JsLibs = [
 ] as const;
 
 export const Protocoles = [
+  "IPFS",
+  "ENS",
   "Ganache",
   "ChainLink",
   "Aave",
