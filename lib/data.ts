@@ -110,7 +110,7 @@ export const projectsData = [
     title: "Realtk",
     description:
       "A real estate tokenization platform. It allows users to tokenize their real estate assets and sell them as NFTs. It also allows users to buy real estate NFTs and earn passive income from rent.",
-    tags: ["React", "Next.js", "Wagmi", "Tailwind", "rainbow.me"],
+    tags: ["React", "js", "hardhat", "metamask", "web3", "solidity"],
     imageUrl: realtk,
     linkUrl: ["https://realtk.vercel.app"], //https://realtk.vercel.app/
   },
