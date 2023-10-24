@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1697381585464-b1d931badcd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80" // https://unsplash.com/fr/photos/fzir3jtFuTQ // https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100
+              src="https://images.unsplash.com/photo-1698144238229-5f91863d8828?auto=format&fit=crop&q=80&w=2080&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // https://unsplash.com/fr/photos/fzir3jtFuTQ // https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100
               alt="Neel portrait"
               width="192"
               height="192"
@@ -52,7 +52,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            {/*👋*/}
           </motion.span>
         </div>
       </div>
@@ -96,13 +96,13 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download My CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/neel-claudel-902998297/"
           target="_blank"
         >
           <BsLinkedin />
@@ -110,7 +110,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/NeelClaudel"
           target="_blank"
         >
           <FaGithubSquare />

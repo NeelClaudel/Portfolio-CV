@@ -2,10 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import nlogo from "@/public/nlogo.png";
+import nestImg from "@/public/nestImg.svg";
+import nestImg2 from "@/public/nestImg2.svg";
+import realtk from "@/public/realtk.jpg";
+import koli from "@/public/koli.png";
+import tokenhiro from "@/public/tokenhiro.jpg";
 
 export const links = [
   {
@@ -52,15 +53,16 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title: "Title : Web And Mobile Web Developer of Application",
-    location: "Wild Code School, FR",
+    title:
+      "Cursus Licence (Niveau3) : Application Developer Web And Mobile Web",
+    location: "Wild Code School en Cursus Alternance, FR",
     description:
-      "I've been follow a one year training in web development at Wild Code School. I learned more advanced web development concepts and the different existing technologies like React, Node, Git, Docker, GraphQL. I also learned how to work in a team and how to manage a project.",
+      "I've been follow a one year training in web development at Wild Code School. I learned more advanced web development concepts and the different existing technologies like React, Node, Git, Docker, GraphQL. I also learned how to collaborate in a team to manage a project with tools like Github, CI, Version Control. Meanwhile, I was working for a company as junior developper during this training.",
     icon: React.createElement(FaReact),
     date: "2022 - 2023",
   },
   {
-    title: "Game Developer",
+    title: "Game Development Project",
     location: "At Home, FR",
     description:
       "I have been working on a 3D video game project for 4 mounths. It's a roleplay game in medieval environment with dynamic combats and world exploration. I'm using Unity and C# to develop the game. Alpha release is planned the game in september 2024.",
@@ -68,15 +70,15 @@ export const experiencesData = [
     date: "Summer 2023 to Present",
   },
   {
-    title: "Koli.world",
+    title: "FreeLance Web and blockchain Developer",
     location: "At Home, FR",
     description:
-      "Koli.world is a intuitive AI writer application based on LLM models from OpenAi API. This project is designed to be Saas",
+      "I'm currently working as a freelancer web and blockchain developer. I'm working on different projects like web decentralized app and smart contracts, I'm also working on expending services i can provide so i keep learning new technologies and protocols.",
     icon: React.createElement(FaReact),
     date: "Present",
   },
   {
-    title: "StableNest Protocol",
+    title: "Stablecoin Protocol",
     location: "At Home, FR",
     description:
       "Curently working on my project of stablecoin protocole. The goal is to create a over colateralized stablecoin protocol and scale over time by adding more Fiat backed stablecoin trading pair like JPY, AUD, EUR using Chainlink Oracle to ensure data verification. The protocole will be deployed on the Ethereum blockchain.",
@@ -90,30 +92,43 @@ export const projectsData = [
     title: "Nest Stable Coin - Smart Contract",
     description:
       "An algorythmic, exogeneously, over colateralized and scalable platform for stablecoins. Offering ERC20 version of Forex pair trading like USD, JPY, AUD, EUR on Ethereum",
-    tags: ["Solidity", "Rust", "Chainlink", "Forge", "OpenZeppelin"],
-    imageUrl: corpcommentImg,
-    links: ["https://github.com"],
+    tags: ["Solidity", "Rust", "Chainlink", "Foundry", "OpenZeppelin"],
+    imageUrl: nestImg,
+    linkUrl: [
+      "https://github.com/NeelClaudel/NestStableCoin-NEST-Contracts.git",
+    ],
   },
   {
     title: "Nest Stable Coin - Front End",
     description:
       "Front-end UI for the Nest Stable Coin platform. Will allows users to mint, burn, stake, swap and trade Nest based stablecoins.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Ethers.js"],
-    imageUrl: rmtdevImg,
+    imageUrl: nestImg2,
+    linkUrl: ["https://github.com/NeelClaudel/Stablecoin-UI.git"],
   },
   {
-    title: "sc.interactive.io",
+    title: "Realtk",
     description:
-      "A public web app for quick with every smart contract on multiples EVM based blockchains. ",
+      "A real estate tokenization platform. It allows users to tokenize their real estate assets and sell them as NFTs. It also allows users to buy real estate NFTs and earn passive income from rent.",
     tags: ["React", "Next.js", "Wagmi", "Tailwind", "rainbow.me"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: realtk,
+    linkUrl: ["https://github.com"],
   },
   {
-    title: "Koli.world",
+    title: "Koli",
     description:
       "A AI based app writer. It generates text based on a given topic. It uses OpenAI's GPT API. Software as a service project.",
     tags: ["OpenAi", "LLM", "DB", "Dashboard", "Saas"],
-    imageUrl: nlogo,
+    imageUrl: koli,
+    linkUrl: ["https://github.com"],
+  },
+  {
+    title: "TokenHiro",
+    description:
+      "My freelancer website. I'm using it to sell my services as a web and smart contract developer. I also provide consulting for clients who want to start a blockchain project.",
+    tags: ["Next.js", "LLM", "DB", "Dashboard", "Saas"],
+    imageUrl: tokenhiro,
+    linkUrl: ["https://github.com"],
   },
 ] as const;
 
@@ -122,6 +137,7 @@ export const Languages = [
   "CSS",
   "JavaScript/TypeScript",
   "Solidity",
+  "C# Sharp",
   "Rust",
   "Golang",
 ] as const;
@@ -160,7 +176,7 @@ export const Framworks = [
 
 export const Protocols = [
   "Hardhat",
-  "Forge",
+  "Foundry",
   "Ganache",
   "ChainLink",
   "IPFS",

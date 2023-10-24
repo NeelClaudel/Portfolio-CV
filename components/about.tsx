@@ -80,8 +80,8 @@ export default function About() {
       </p>
       <p className="mt-3">
         <span className="italic">When I'm not coding</span>, I enjoy surfing and
-        sports, watching movies, playing music and painting. I also love to
-        travel and discover new places and cultures.
+        sports, watching movies, playing music and painting. I also love
+        travelling and discover new places and cultures.
       </p>
     </motion.section>
   );

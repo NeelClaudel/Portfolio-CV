@@ -29,7 +29,7 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>Languages</SectionHeading>
+      <SectionHeading>Which Languages I'm learning</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Languages.map((languages, index) => (
           <motion.li
@@ -48,7 +48,7 @@ export default function Skills() {
         ))}
       </ul>
       <br />
-      <SectionHeading>Technologies</SectionHeading>
+      <SectionHeading>Some Technologies I'm using</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {Technologies.map((techs, index) => (
           <motion.li
