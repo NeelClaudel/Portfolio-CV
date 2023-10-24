@@ -112,7 +112,7 @@ export const projectsData = [
       "A real estate tokenization platform. It allows users to tokenize their real estate assets and sell them as NFTs. It also allows users to buy real estate NFTs and earn passive income from rent.",
     tags: ["React", "Next.js", "Wagmi", "Tailwind", "rainbow.me"],
     imageUrl: realtk,
-    linkUrl: ["https://github.com"],
+    linkUrl: ["https://realtk.vercel.app"], //https://realtk.vercel.app/
   },
   {
     title: "Koli",
@@ -120,7 +120,7 @@ export const projectsData = [
       "A AI based app writer. It generates text based on a given topic. It uses OpenAI's GPT API. Software as a service project.",
     tags: ["OpenAi", "LLM", "DB", "Dashboard", "Saas"],
     imageUrl: koli,
-    linkUrl: ["https://github.com"],
+    linkUrl: ["https://koli.world"],
   },
   {
     title: "TokenHiro",
