@@ -53,8 +53,7 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title:
-      "Cursus Licence (Niveau3) : Application Developer Web And Mobile Web",
+    title: "Cursus Licence (RNCP6) : Application Design Developer",
     location: "Wild Code School en Cursus Alternance, FR",
     description:
       "I've been follow a one year training in web development at Wild Code School. I learned more advanced web development concepts and the different existing technologies like React, Node, Git, Docker, GraphQL. I also learned how to collaborate in a team to manage a project with tools like Github, CI, Version Control. Meanwhile, I was working for a company as junior developper during this training.",
