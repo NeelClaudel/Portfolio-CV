@@ -7,6 +7,7 @@ import nestImg2 from "@/public/nestImg2.svg";
 import realtk from "@/public/realtk.jpg";
 import koli from "@/public/koli.png";
 import tokenhiro from "@/public/tokenhiro.jpg";
+import codelater from "@/public/codelater.svg";
 
 export const links = [
   {
@@ -122,9 +123,17 @@ export const projectsData = [
     linkUrl: ["https://koli.world"],
   },
   {
+    title: "Codelater",
+    description:
+      "A code translator that allows you to translate your code into different programming languages.",
+    tags: ["Next.js", "LLM", "OpenAi API", "CodeMirror"],
+    imageUrl: codelater,
+    linkUrl: ["https://codelater.vercel.app/"],
+  },
+  {
     title: "TokenHiro",
     description:
-      "My freelancer website. I'm using it to sell my services as a web and smart contract developer. I also provide consulting for clients who want to start a blockchain project.",
+      "My freelancer  project. I'm using it to sell my services as a web and smart contract developer. I also provide consulting for clients who want to start a blockchain project.",
     tags: ["Next.js", "LLM", "DB", "Dashboard", "Saas"],
     imageUrl: tokenhiro,
     linkUrl: ["https://github.com"],
