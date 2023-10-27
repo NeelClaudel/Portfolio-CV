@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "Game Development Project",
     location: "At Home, FR",
     description:
-      "I have been working on a 3D video game project for 4 mounths. It's a roleplay game in medieval environment with dynamic combats and world exploration. I'm using Unity and C# to develop the game. Alpha release is planned the game in september 2024.",
+      "I have been working on a 3D video game project for 4 mounths. It's a roleplay game in medieval environment with dynamic combats and world exploration. I'm using Unity Engine, C# to develop the game, blockchain interations will be managed with ThirdwebSDK. Alpha release is planned the game in september 2024.",
     icon: React.createElement(FaReact),
     date: "Summer 2023 to Present",
   },
