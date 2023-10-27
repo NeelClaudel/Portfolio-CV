@@ -126,7 +126,7 @@ export const projectsData = [
     title: "Codelater",
     description:
       "A code translator that allows you to translate your code into different programming languages.",
-    tags: ["Next.js", "LLM", "OpenAi API", "CodeMirror"],
+    tags: ["Next.js", "LLM", "OpenAi", "CodeMirror"],
     imageUrl: codelater,
     linkUrl: ["https://codelater.vercel.app/"],
   },
