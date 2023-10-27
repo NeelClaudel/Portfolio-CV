@@ -63,13 +63,14 @@ export default function About() {
         <span className="font-medium">decentralized Stablecoin protocole</span>,
         which is a cryptocurrency designed to minimize the price volatility
         because is price is pegged to another stable asset like the U.S. dollar
-        or gold. This way i keep learning more complexe Solidity.
+        or gold. This way i keep learning more complexe Solidity like testing
+        and auditing smart contracts.
       </p>
       <p>
         I also enjoy{" "}
         <span className="font-medium">
-          learning new programming things like video game development with Unity
-          and 3D modeling with Blender
+          learning new programming things like video game development with
+          Unity, 3D modeling with Blender
         </span>
         . I am currently learning about{" "}
         <span className="font-medium">
