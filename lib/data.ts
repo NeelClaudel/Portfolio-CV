@@ -178,6 +178,8 @@ export const Framworks = [
   "Thirdweb",
   "Alchemy",
   "Truffle",
+  "Viem",
+  "Wagmi",
   "Substrate",
   "Cosmos/Ignite",
 ] as const;
