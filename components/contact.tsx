@@ -60,6 +60,32 @@ export default function Contact() {
           maxLength={500}
           placeholder="Your email"
         />
+        <br />
+        <input
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="name"
+          type="text"
+          required
+          maxLength={500}
+          placeholder="Your Full Name"
+        />
+        <br />
+        <input
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="company"
+          maxLength={500}
+          placeholder="Your Company Name"
+        />
+        <br />
+        <input
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="phone"
+          type="text"
+          required
+          maxLength={500}
+          placeholder="Your Phone Number"
+        />
+        <br />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"

@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuTrees } from "react-icons/lu";
 import nestImg from "@/public/nestImg.svg";
 import nestImg2 from "@/public/nestImg2.svg";
 import realtk from "@/public/realtk.jpg";
@@ -42,7 +42,7 @@ export const experiencesData = [
     location: "At Home, FR",
     description:
       "I started by learning basic web programming with HTML, CSS and JS in 2021 for few mounths. I decided to learn more about blockchain and smart contracts so i started learn Solidity, the programming language of Ethereum.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(LuTrees), // LuGraduationCap
     date: "2021",
   },
   {
@@ -58,7 +58,7 @@ export const experiencesData = [
     location: "Wild Code School en Cursus Alternance, FR",
     description:
       "I've been follow a one year training in web development at Wild Code School. I learned more advanced web development concepts and the different existing technologies like React, Node, Git, Docker, GraphQL. I also learned how to collaborate in a team to manage a project with tools like Github, CI, Version Control. Meanwhile, I was working for a company as junior developper during this training.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2022 - 2023",
   },
   {
