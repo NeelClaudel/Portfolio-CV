@@ -39,12 +39,19 @@ export default function ContactFormEmail({
                 You received the following message from the contact form
               </Heading>
               <Text>
-                From {name}, Company : {company}
+                From <span className="font-bold">{name}</span>, Company :{" "}
+                <span className="font-bold">{company}</span>
               </Text>
               <Text>{message}</Text>
               <Hr />
-              <Text>The sender's email is: {senderEmail}</Text>
-              <Text>The sender's phone is: {phone}</Text>
+              <Text>
+                The sender's email is:{" "}
+                <span className="font-bold">{senderEmail}</span>
+              </Text>
+              <Text>
+                The sender's phone is:{" "}
+                <span className="font-bold">{phone}</span>
+              </Text>
             </Section>
           </Container>
         </Body>
