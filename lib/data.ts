@@ -162,8 +162,6 @@ export const Technologies = [
   "Apollo",
   "Express",
   "Docker",
-  "Docker Compose",
-  "Framer Motion",
   "LLM",
   "OpenAi",
 ] as const;
@@ -171,13 +169,12 @@ export const Technologies = [
 export const Framworks = [
   "React",
   "Next.js",
-  "Thirdweb",
-  "Moralis",
+  "Thirdweb SDK",
+  "Moralis SDK",
   "Ethers.js",
   "Web3.js",
-  "Thirdweb",
-  "Alchemy",
-  "Truffle",
+  "Framer Motion",
+  "Alchemy SDK and RPC",
   "Viem",
   "Wagmi",
   "Substrate",
@@ -185,6 +182,7 @@ export const Framworks = [
 ] as const;
 
 export const Protocols = [
+  "Truffle",
   "Hardhat",
   "Foundry",
   "Ganache",
