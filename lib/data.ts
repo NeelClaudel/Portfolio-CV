@@ -91,7 +91,7 @@ export const projectsData = [
   {
     title: "Nest Stable Coin - Smart Contract",
     description:
-      "An algorythmic, exogeneously, over colateralized and scalable platform for stablecoins. Offering ERC20 version of Forex pair trading like USD, JPY, AUD, EUR on Ethereum",
+      "A work in progress project of An algorythmic, exogeneously, over colateralized and scalable platform for stablecoins. Offering ERC20 version of Forex pair trading like USD, JPY, AUD, EUR on Ethereum",
     tags: ["Solidity", "Rust", "Chainlink", "Foundry", "OpenZeppelin"],
     imageUrl: nestImg,
     linkUrl: [
@@ -101,7 +101,7 @@ export const projectsData = [
   {
     title: "Nest Stable Coin - Front End",
     description:
-      "Front-end UI for the Nest Stable Coin platform. Will allows users to mint, burn, stake, swap and trade Nest based stablecoins.",
+      "A work in progress repo for Front-end UI for the Nest Stable Coin platform. Will allows users to mint, burn, stake, swap and trade Nest based stablecoins.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Ethers.js"],
     imageUrl: nestImg2,
     linkUrl: ["https://github.com/NeelClaudel/Stablecoin-UI.git"],
@@ -134,9 +134,9 @@ export const projectsData = [
     title: "TokenHiro",
     description:
       "My freelancer  project. I'm using it to sell my services as a web and smart contract developer. I also provide consulting for clients who want to start a blockchain project.",
-    tags: ["Next.js", "LLM", "DB", "Dashboard", "Saas"],
+    tags: ["Next.js", "Agency", "Freelance Services"],
     imageUrl: tokenhiro,
-    linkUrl: ["https://github.com"],
+    linkUrl: ["https://token-hiro.vercel.app/"],
   },
 ] as const;
 
@@ -174,7 +174,6 @@ export const Framworks = [
   "Ethers.js",
   "Web3.js",
   "Framer Motion",
-  "Alchemy SDK and RPC",
   "Viem",
   "Wagmi",
   "Substrate",
