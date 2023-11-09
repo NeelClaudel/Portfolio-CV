@@ -93,7 +93,7 @@ export const projectsData = [
     description:
       "This project is designed to be a online grosery store with delivery service in my local area. It's a fullstack project with a Admin dashboard to manage products and orders. I currently implement referral program and custom categories.Database Built with Prisma and MongoDB.",
     tags: ["Next", "Prisma", "Mongo", "Typescript", "Stripe", "Tailwind"],
-    imageUrl: nestImg,
+    imageUrl: tokenhiro,
     linkUrl: ["https://woolies.vercel.app/"],
   },
   {
