@@ -89,6 +89,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Woolies Online Store",
+    description:
+      "This project is designed to be a online grosery store with delivery service in my local area. It's a fullstack project with a Admin dashboard to manage products and orders. I currently implement referral program and custom categories.Database Built with Prisma and MongoDB.",
+    tags: ["Next", "Prisma", "Mongo", "Typescript", "Stripe", "Tailwind"],
+    imageUrl: nestImg,
+    linkUrl: ["https://woolies.vercel.app/"],
+  },
+  {
     title: "Nest Stable Coin - Smart Contract",
     description:
       "A work in progress project of An algorythmic, exogeneously, over colateralized and scalable platform for stablecoins. Offering ERC20 version of Forex pair trading like USD, JPY, AUD, EUR on Ethereum",
